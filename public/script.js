@@ -55,7 +55,7 @@ const addVideoStream = (video, stream) => {
     })
     videoGrid.append(video);
 }
-
+/*
 let text = $('input');
 
 $('html').keydown((e) => {
@@ -73,7 +73,7 @@ socket.on('createMessage', message => {
 const scrollToBottom = () => {
     let searchBar = $('.main__chat__window');
     searchBar.scrollTop(d.prop("scrollHeight"));
-}
+} */
 
 const muteUnmute = () => {
     const enabled = myVideoStream.getAudioTracks()[0].enabled;
